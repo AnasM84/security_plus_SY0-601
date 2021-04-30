@@ -54,7 +54,37 @@ TIP: check out blogs:
 - F5 labs
 
 ## 006. Identifying a Phishing Mail
+- **urgency**
+- **grammar and spellinng**
+- **gut feeling** - not 100% correct, but useful
+- **attachment** - not expected, or not mentioned
+- **subject line** - mismatched, or weird
+- **timestamp** - weird time
+- **links** - incorrect URL by 1 or 2 characters, no TLS (HTTPS) link
 
 ## 007. Social Engineering Toolkit
+Credential harvesting demo in Kali Linux.
 
 ## 008. Review Quiz
+Video quiz.
+
+
+# Cyber Attack Techniques
+
+## 009. Introduction to Cyber Attack Techniques
+
+## 010. Malware
+
+## 011. Password Attacks
+
+## 012. Password Attack Example
+
+## 013. Cyber Physical Components
+
+## 014. Adversial AI
+
+## 015. Supply Chain Security
+
+## 016. Cryptographic Attacks.
+
+## 017. Review Quiz

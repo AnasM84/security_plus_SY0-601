@@ -5,4 +5,5 @@
 
 Skill | Modules | Flashcards
 ------|---------|-----------
-Social Engineering Techniques | 001-008 | **TODO**
+Social Engineering Techniques   | 001-008 | **TODO**
+Cyber Attack Techniques         | 009-017 | **TODO**
