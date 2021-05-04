@@ -140,3 +140,29 @@ Remote access to computer
 `netstat` show open ports on lInux and can indentify RAT activity.
 
 Most accurate indicator of **rootkit** is: *has* on core system files have changed.
+
+
+
+# Application Attacks
+
+## 018. Introduction to Application Attacks
+
+## 019. Injection Attacks
+
+## 020. Cross Site Scripting
+
+## 021. Poorly Written Apps
+
+## 022. Overflow Attack Demo
+
+## 023. Poorly Written App Attack
+
+## 024. Impersonation
+
+## 025. Error Handling Attack
+
+## 026. Additional Application Attacks
+
+## 027. Password Recovery Fail
+
+## 028. Review Quiz
