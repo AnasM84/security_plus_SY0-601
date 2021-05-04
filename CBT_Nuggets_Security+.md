@@ -146,23 +146,65 @@ Most accurate indicator of **rootkit** is: *has* on core system files have chang
 # Application Attacks
 
 ## 018. Introduction to Application Attacks
+Just an intro.
 
 ## 019. Injection Attacks
+SQL, DLL, LDAP, XML (and more) injection attacks.
+
+Using specially crafted input (exploiting syntax)
+that may lead to:
+- data corruption/ system damage
+- privlage escalation
+
+*Proper input validation* is a way to protect form SQL or LDAP injection attacks.
 
 ## 020. Cross Site Scripting
+**XSS** - acronym for Cross Site Scripting
+Type of attack that can run malicious JavaScript in the user's browser.
+
 
 ## 021. Poorly Written Apps
+- **Memory leak** - app doesn't release allocated memory which "clogs" part of RAM
+- **Buffer overflow**
+- **Error handling** 
+- **Integer overflow** - when numeric value is too big it wraps aroud
+- **Race condition**
+  * **time of check**
+  * **time of use**
+- **Misconfiguration**
+  * **filesystem traversal**
+
+Proper error handling can prevent most of these.
+
+A *buffer overflow* is an attack that tries to input more memory that the application can accomodate.
 
 ## 022. Overflow Attack Demo
+Overflow attack demo in Kali Linux.
 
 ## 023. Poorly Written App Attack
+Web forms hacking demo (using developer tools) in Kali Linux.
 
 ## 024. Impersonation
+- **session replay**
+- **pass the hash**
+- **Cross Site Request Forgery** - CSRF - attack that tricks computer to use existing credentials (authentication) to make request to a 3rd party website.
 
 ## 025. Error Handling Attack
+Lack of authentication attack demo in Kali Linux.
 
 ## 026. Additional Application Attacks
+- **Downgrade**
+- **SSL stripping**
+- **API** Application Programming Interface - if unsecure, it can be exploited
+- **driver manipulation**
+  * **shimming** - not modyfing the code, but arguments in API call
+  * **refactoring** - modified code
+- **pointer/object** dereference
 
 ## 027. Password Recovery Fail
+Demo in Kali Linux.
+
+Solution: Configure limited attempts.
 
 ## 028. Review Quiz
+Video quiz.
