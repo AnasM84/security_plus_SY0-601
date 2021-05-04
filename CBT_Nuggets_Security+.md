@@ -69,13 +69,37 @@ Credential harvesting demo in Kali Linux.
 Video quiz.
 
 
+
 # Cyber Attack Techniques
 
 ## 009. Introduction to Cyber Attack Techniques
+Just an intro.
 
 ## 010. Malware
+Malicious software.
+
+The software that nobody wants.
+- **trojans** - software that installs malware in the background
+- **worm** - virus that works without user intervention
+- **fileless virus** - virus that lives in memory (RAM)
+- **PUP** - potentially unwanted program
+- **bot** - agent that runs on computer and can be activated remotely
+- **cryptoalware** - malware that encrypts data on your computer and hacker wants ransom for unencryption - also **ransomware**
+- **spyware**
+- **keylogger** - tracks down your keystrokes
+- **RAT** - Remote Access Trojan
+- **Rootkit** - low-level malware that's hard to detect
+
+End User Training helps preventing all those threats.
 
 ## 011. Password Attacks
+- **brute force** - trying all the permutations with repetition
+- **dictionary attack** - trying all the passwords in the dictionary/database
+- **spray attack** - trying few common passwords against large number of users
+- **offline attack** - for example: comparing *hashed* versions of password against stolen *hashed* password database, slow, but hacker can take as much time as he wants
+- **rainbow table** - precomputed *hash* values of tables
+
+Limiting login attemtps helps preventing all those threats.
 
 ## 012. Password Attack Example
 
@@ -88,3 +112,4 @@ Video quiz.
 ## 016. Cryptographic Attacks.
 
 ## 017. Review Quiz
+
