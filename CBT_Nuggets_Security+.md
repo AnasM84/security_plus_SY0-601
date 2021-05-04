@@ -102,14 +102,33 @@ End User Training helps preventing all those threats.
 Limiting login attemtps helps preventing all those threats.
 
 ## 012. Password Attack Example
+Kali Linux attack example.
+
+Methods used to compromise a user's password.
+- steal the *hash* and attack it offline
+- trick the user into using a clear text protocol
 
 ## 013. Cyber Physical Components
+- **malicious USB cable** - with a specificaly designed chip/circuit
+- **malicious flash drive**
+- **card cloning**
+   * skimming - reading or cloning a card
+
+Most secure way to access a facility is card and PIN (multi factor)
 
 ## 014. Adversial AI
+Security of AI and machine learning. Making sure that it gets the right/safe data.
 
 ## 015. Supply Chain Security
+- Products with chips that have vulnerabilities.
+- 3rd party management software with malware
 
 ## 016. Cryptographic Attacks.
+- **hash collision** different data sets create same *hash* value (rare thing)
+- **downgrade** - for example: changing TLS from 1.3 to 1.2
+
+When storing passwords **salt** is the mechanisim to make it harder for an attacker to discover password.
 
 ## 017. Review Quiz
+Video quiz.
 
