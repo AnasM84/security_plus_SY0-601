@@ -132,3 +132,11 @@ When storing passwords **salt** is the mechanisim to make it harder for an attac
 ## 017. Review Quiz
 Video quiz.
 
+Remote access to computer
+- **RAT**
+- **bot**
+- **backdoor**
+
+`netstat` show open ports on lInux and can indentify RAT activity.
+
+Most accurate indicator of **rootkit** is: *has* on core system files have changed.
