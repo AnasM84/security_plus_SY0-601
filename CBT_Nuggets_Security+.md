@@ -319,3 +319,51 @@ Bluesnarfing
 
 What is the term for incorrect name server record information being provided to clients?
 DNS Poisoning
+
+
+
+# Threat Actors and Inteligence Sources
+
+## 038. Introduction to Actors, Vectors, and Intelligence Sources
+
+## 039. Threat Actors
+- **Insider/internal threat**
+- **External/outsider threat**
+- **Advanced Persistent Threat (APT)**
+- **Script kiddies**
+- **Hacktivists**
+- **State actors**
+- **Competitors**
+- **Criminal syndicates**
+
+What is shadow IT?
+IT implemented without authorization
+
+## 040. Attack Vectors
+Way of an unauthorized access that can compromise the system.
+- **Direct access**
+- **Wireless**
+- **Email** - user training helps preventing this
+- **Supply chain**
+- **Social media**
+- **Removable Media**
+- **Cloud**
+
+## 041. Threat Inteligence Sources
+- **Tactics, Techniques, & Procedures (TTP)**
+- **Open-source inteligence (OSINT)**
+- **Info Sharing & Analysis Org (ISAOs)**
+  * [IT-ISAC](it-isac.org)
+  * [ATT&CK](attack.mitre.org)
+  * [Exploit database](exploit-db.com)
+  * [National Vulnerability Database](nvd.nist.gov)
+  * [Virus Total](virustotal.com)
+  * [Common Vulnerabilities and Exposures](cve.mitre.com)
+  * [AUTOMATED INDICATOR SHARING](https://www.cisa.gov/ais)
+    - **STIX** Structured Threat Information Exposition
+    - **TAXII** Trusted Automated Exchange of Indicator Information
+      * system used to share files - [TAXII Intro](https://oasis-open.github.io/cti-documentation/taxii/intro.html)
+  * [TALOS](talosinteligence.com)
+- **Threat maps**
+- **File/code repositorires**
+- **Dark web**
