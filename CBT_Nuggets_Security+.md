@@ -199,7 +199,7 @@ Lack of authentication attack demo in Kali Linux.
 - **driver manipulation**
   * **shimming** - not modyfing the code, but arguments in API call
   * **refactoring** - modified code
-- **pointer/object** dereference
+- **pointer/object dereference**
 
 ## 027. Password Recovery Fail
 Demo in Kali Linux.
@@ -208,3 +208,114 @@ Solution: Configure limited attempts.
 
 ## 028. Review Quiz
 Video quiz.
+
+
+
+# Network Attacks
+
+## 029. Introduction to Network Attacks
+It's not whaen our network will be attcked, but **how** our network will be attcked.
+
+## 030. Wireless Attacks
+- **Initialization Vector** (IV) - (What are the main differences between a nonce, a key and an IV?)[https://crypto.stackexchange.com/questions/3965/what-is-the-main-difference-between-a-key-an-iv-and-a-nonce]
+- **Evil twin**
+  * **rogue access point**  - duplicated access point used for an attack...
+  * **disassociation frame** - send this frame which disconnects user from orginal access point...
+  * **jamming** - then jams the original router, so it cannot reconnect to it.
+
+- **Shadow IT** - user brings his own device (not authorized)
+- **RADIUS**
+
+- **blue snarfing** - pulling bluetooth data from a bluetooth device
+- **blue jacking** - pushing bluetooth data to a bluetooth device
+
+- **RFID** - Radio Frequency Identification
+- **NFC** - Near-field Communication
+
+## 031. In-line / On-path Attacks
+Or **Man-in-the-middle** attack.
+Note: proxy server is man-in-the-middle, but it's authorized, and actually used to increase security.
+
+- **Unauthorized DHCP Server** - for example: brodcasts malicious gateway, so that data goes through attecker server, but then goes out through intended, autorized gateway
+
+- **Layer 2 ARP Spoofing**
+- **Unauthorized L3 router**
+- **DNS poisioning**
+- **typosquatting**
+
+- **man-in-the-browser**
+
+Primary reason an ARP attack is successful on a wired network is lack of security controls on the layer 2 switch.
+
+## 032. Layer 2 attacks
+- **ARP** Address Resolution Protocol, correlation between IP Address (layer 3) and MAC Address (layer 2). Not protected.
+- **ARP poisoning** lying about ture MAC Address
+- **MAC flodding** Media Access Control (MAC) flodding - filling up source MAC Addres table on a switch with many bogus source MAC Addresses 
+- **MAC cloning**
+- **802.1Q Ethernet trunking** - using dynamic trunk negotiation for getting access to different VLANs
+- **DoS Attack** - Denal of Service Attack
+- **STP** Spanning Tree Protocol - eliminate L2 loops
+
+What is ARP poisoning?
+Incorrect L3 to L2 mapping
+
+## 033. Domain name system (DNS)
+Name resolution
+
+- **Domain hijacking**
+- **DNS poisoning**
+- **URL redirection** Universal Resource Location redirection
+- **DNS Tunneling** - exploitiong UDP (L4, which DNS uses) for tunnelling trafick that's not DNS, but looks like DNS 
+
+Incorrect reply information is being returned to clients from their name server. What is this causing?
+DNS poisoning
+
+## 034. Distributed denial-of-sevice (DDoS)
+
+- **Operational Technology (OT)**
+- **Abnormal traffic patterns**
+  * **Indicator of Compromise (IoC)**
+
+When a DDoS is being done, what type of computers make up this group of zombies?
+Botnets
+
+## 035. Malicious code or script execution
+
+- **PowerShell**
+  * **Command Line Interface (CLI)**
+- **Python**
+- **Bash shell**
+- **Visual Basic for Applications (VBA)**
+- **Macros**
+
+Malware can be implemented via Macros in word processing and spreadsheet documents. True or false?
+True 
+
+## 036. Remediation Options
+
+- **Next-Gen Firewall (NGFW)**
+- **Local Host Based Protection**
+- **Limited End User Permissions**
+- **Disable Unneeded Services/Ports**
+- **2FA or MFA Authentication** - Two-Factor or Multi-Factor Authentication
+- **Defense in Depth**
+
+A syn-flooding attack is trying to ipact the availability of our server. The attack is launched simultaneously from multiple systems. 
+What type of attack is this? 
+DDoS
+
+## 037. Review Quiz
+Video Quiz
+
+Which attack is going to have the greates impact regarding availability of the system being attacked?
+DDoS
+
+An Attacker is spoofing the layer 2 address of the gateway, tricking the switch to forward frames to the attacker instead of the router.
+What can prevent this?
+ARP Inspection
+
+Which Bluetooth related attack extracts or pulls data from a targeted device?
+Bluesnarfing
+
+What is the term for incorrect name server record information being provided to clients?
+DNS Poisoning
