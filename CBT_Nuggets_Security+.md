@@ -487,7 +487,7 @@ Which items could lead to a lack of appropriate patches being applied?
 - Older embedded OS in IoT devices
 - Non-supported firmware in IoT devices
 
-## 053. Vulnerabilities Review Quiz
+## 052. Vulnerabilities Review Quiz
 One of the users was tricked into clicking on an email in a phishing attack.
 Email, Web, Network IPS, Network NGFW, as well as local Anti-Virus did not prevent a ransomware infection.
 What is this a result of? (Choose 3)
@@ -514,3 +514,93 @@ What would allow data exfiltration despite these technical controls? (choose all
 - Shadow IT router/AP
 - Encrypted email
 - Disgruntled employee
+
+
+
+# Techniques Used in Security Assessments
+
+## 053. Introduction to Security Assessments
+"Measure twice, cut once"
+
+## 054. Vulnerability Scan Overview
+Vulnerability scanners:
+- [tenable nessus](https://www.tenable.com/products/nessus)
+- [rapid7 nexpose](https://www.rapid7.com/products/nexpose/)
+
+- **credentialed vs. non-credentialed scan.**
+
+Which type of vulnerability scan uses valid system credentials as a part of the intrusive scan?
+- Credentialed scan
+
+## 055. Network Scan Demonstration
+- `nmap`
+  * `zenmap`
+
+Which open/listening port implies that DNS services are running?
+- 53
+
+## 056. Positive and Negative Scan Results
+Try to reduce false positives when running a scan. **Credentialed scan** might help with that.
+- **False negative** there was a vurneability but didn't reported it
+
+A vulnerability scan does NOT report a LINUX vulnerability againts a Windows server. What is this result?
+- True negative
+
+## 057. CVE and CVSS
+- **CVE** Common Vulenrabilities and Exposures - IDs
+  * [Common Vulnerabilities and Exposures](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)
+- **CVSS** Common Vulnerability Scoring System
+  * 0-10 scale (0 least risk, 10 most risk)
+  * calculation based on:
+    - Attack Vector
+    - Attack Complexity
+    - Required Permissions/Rights
+    - User Interaction
+    - Impact to C.I.A (Confidentiality, Integrity, Avaliability)
+  * [CVSS Calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)
+
+## 058. Security Information & Event Management (SIEM)
+Centralised system for managing events/logs. They allow us to react to incidents in organised manner.
+- **deduplication** summary (corellation) of hundreds of ralated events
+- **User behaviour analysis**
+Data can be written to **WORM** (Write Once, Ready Many) drive.
+
+## 059. Threat Hunting
+- **Bug bounty**
+- **Inteligence fusion**
+
+What is the goal of threat hunting?
+- Find vulnerablilities before hackers do
+
+## 060. Security orchestration, automation and response (SOAR)
+Key components of SOAR are:
+1. **Vulnerability and Threat Management**
+2. **Response to Incidents**
+3. **Automation of Seurity Operations**
+
+[Gartner SOAR reviews](https://www.gartner.com/reviews/market/security-orchestration-automation-and-response-solutions)
+
+## 061. Security Assessment Review Quiz
+A vulnerability scan indentifies CVE-2019-5021 an Alpine Docker Image Vulnerability.
+The system indentified with this is a Windows Workstation with no hpervisor enabled.
+What does this scan result represent?
+- False Positive
+
+What can be done to reduce false positives in vulnerability scans?
+- Credentialed scans
+- Target specific systems based on OS
+- Only use specific plug-in in Scanner
+
+Which type of activity would be looking for unpathced systems, without causing harm or compromising the system? (choose 2)
+- Vulnerability scanning
+- Reconnaissance
+
+What are 3 categories that can benefit from vulnerability scans?
+- Applications
+- Networks
+- Web Applications
+
+Company policy restricts workstations from running plain text web and remote access services.
+Which ports should the vulnerability scanner look for?
+- TCP port 23
+- TCP port 80
