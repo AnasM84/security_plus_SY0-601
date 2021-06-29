@@ -214,7 +214,7 @@ Video quiz.
 # Network Attacks
 
 ## 029. Introduction to Network Attacks
-It's not whaen our network will be attcked, but **how** our network will be attcked.
+It's not when our network will be attcked, but **how** our network will be attcked.
 
 ## 030. Wireless Attacks
 - **Initialization Vector** (IV) - (What are the main differences between a nonce, a key and an IV?)[https://crypto.stackexchange.com/questions/3965/what-is-the-main-difference-between-a-key-an-iv-and-a-nonce]
@@ -257,10 +257,10 @@ Primary reason an ARP attack is successful on a wired network is lack of securit
 - **STP** Spanning Tree Protocol - eliminate L2 loops
 
 What is ARP poisoning?
-Incorrect L3 to L2 mapping
+- Incorrect L3 to L2 mapping
 
 ## 033. Domain name system (DNS)
-Name resolution
+- Name resolution
 
 - **Domain hijacking**
 - **DNS poisoning**
@@ -268,7 +268,7 @@ Name resolution
 - **DNS Tunneling** - exploitiong UDP (L4, which DNS uses) for tunnelling trafick that's not DNS, but looks like DNS 
 
 Incorrect reply information is being returned to clients from their name server. What is this causing?
-DNS poisoning
+- DNS poisoning
 
 ## 034. Distributed denial-of-sevice (DDoS)
 
@@ -277,7 +277,7 @@ DNS poisoning
   * **Indicator of Compromise (IoC)**
 
 When a DDoS is being done, what type of computers make up this group of zombies?
-Botnets
+- Botnets
 
 ## 035. Malicious code or script execution
 
@@ -289,7 +289,7 @@ Botnets
 - **Macros**
 
 Malware can be implemented via Macros in word processing and spreadsheet documents. True or false?
-True 
+- True 
 
 ## 036. Remediation Options
 
@@ -303,22 +303,22 @@ True
 A syn-flooding attack is trying to ipact the availability of our server. The attack is launched simultaneously from multiple systems. 
 What type of attack is this? 
 DDoS
-
+- 
 ## 037. Review Quiz
 Video Quiz
 
 Which attack is going to have the greates impact regarding availability of the system being attacked?
-DDoS
+- DDoS
 
 An Attacker is spoofing the layer 2 address of the gateway, tricking the switch to forward frames to the attacker instead of the router.
 What can prevent this?
-ARP Inspection
+- ARP Inspection
 
 Which Bluetooth related attack extracts or pulls data from a targeted device?
-Bluesnarfing
+- Bluesnarfing
 
 What is the term for incorrect name server record information being provided to clients?
-DNS Poisoning
+- DNS Poisoning
 
 
 
@@ -337,7 +337,7 @@ DNS Poisoning
 - **Criminal syndicates**
 
 What is shadow IT?
-IT implemented without authorization
+- IT implemented without authorization
 
 ## 040. Attack Vectors
 Way of an unauthorized access that can compromise the system.
@@ -381,7 +381,7 @@ Way of an unauthorized access that can compromise the system.
 - [a10networks Threatmap](https://threats.a10networks.com/)
 
 There is a value in using a diversity of products and services, as it may improve security awareness and readiness. True or false?
-True
+- True
 
 ## 043. Additional Sources for Research
 - **Vendor website**
