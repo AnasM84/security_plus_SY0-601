@@ -10,3 +10,4 @@ Cyber Attack Techniques                 | 009-017 | **TODO**
 Application Attacks                     | 018-028 | **TODO**
 Network Attacks                         | 029-037 | **TODO**
 Threat Actors and Intelligence Sources  | 038-044 | **TODO**
+Vulnerabilities and Security Risks      | 045-052 | **TODO**

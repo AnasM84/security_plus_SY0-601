@@ -413,3 +413,104 @@ Which of the folowing could be motivations for hacking/attacking a system?
 - A deeply felt cause
 - Financial gain
 - Curiosity
+
+
+
+# Vulnerabilities and Security Risks
+
+## 045. Introduction to Vulnerabilities and Security Risks
+
+## 046. Cloud vs. On-prem Vulnerabilities
+Questions to ask:
+
+What/Which?
+- Encryption
+- Access Control
+- Authentication
+- API
+- Fault tolerance
+is used?
+
+Which security question should be asked that is unique to cloud services, compared to on-prem or a local data centeer?
+- Where is the data geographically stored?
+
+## 047. Zero-day Attacks
+Nobody knew about the vulnerability, before the attack was performed. 
+
+Which of the following is the primary reason a Zero-Day vulnerability exists?
+- Vulnerability is unknown
+
+## 048. Weak configurations
+- **Default settings**
+- **Unsecure root accounts**
+- **Errors** - misconfigurations - we should estabilsh baselines to mittigate that
+- **Unsecure protocols** - without encryption - for example: http, ftp, tftp
+- **open ports and services** 
+  * Linux(?): `netstat -tulpn`
+  * Windows: [How to Find Listening Ports with Netstat and PowerShell](https://adamtheautomator.com/netstat-port/)
+- **supply chain**
+
+Which of the following conttribute to ar are symptoms of weak configurations?
+- Weak or insecure protocols
+- Older embedded systems
+- Firmware that is not updated
+- Unused open ports
+
+## 049. Telnet with IPsec Demonstration
+Sometime we have to use unsecure protocol. For example: configuration file.
+Then, we must use VPN (for example IPsec VPN) to secure the connection.
+
+Which protocols are insecure by default (choose three)?
+- FTP
+- Telnet
+- TFTP
+
+## 050. Third-Party Risks
+- **Vendor management**
+- **Outsourced code development**
+- **Data storage**
+- **Patch management**
+
+Which of the following can do the most to best protect against vulnerabilities in the supply chain?
+- Vendor management
+
+## 051. Patch Management
+Does software need updates? Absolutely YES!
+
+- **Firmware, OS, apps**
+- **Legacy platforms**
+- **Data exfiltration**
+- **Identity, Financial, Reputation, Availability** losses
+
+Which items could lead to a lack of appropriate patches being applied?
+- Lack of inventory in our systems
+- Older embedded OS in IoT devices
+- Non-supported firmware in IoT devices
+
+## 053. Vulnerabilities Review Quiz
+One of the users was tricked into clicking on an email in a phishing attack.
+Email, Web, Network IPS, Network NGFW, as well as local Anti-Virus did not prevent a ransomware infection.
+What is this a result of? (Choose 3)
+- Email was encrypted
+- Zero-day attack
+- Insufficient user training
+
+Which file transfer protocols transmit data in plain text, and should be avoided for sensitive data? (choose 2)
+- FTP   (TCP 21)
+- TFTP  (UDP 69)
+
+You are considering repuroposing an older IoT device into a new part of your network.
+What risk realted items should you consider? (choose 3)
+- Is the device supported by the vendor?
+- Is the firmware up to date?
+- Is the embedded OS vulnerable?
+
+Which type of compromise would be most likely from an external threat labeled as "script kiddie"?
+- Internet-facing unpatched system
+
+you have implemented network based IPS and NGFW filtering, including DLP.
+What would allow data exfiltration despite these technical controls? (choose all that apply)
+- Mobile hotspot
+- Shadow IT router/AP
+- Encrypted email
+- Disgruntled employee
