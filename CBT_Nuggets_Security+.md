@@ -367,3 +367,49 @@ Way of an unauthorized access that can compromise the system.
 - **Threat maps**
 - **File/code repositorires**
 - **Dark web**
+
+## 042. Threat Maps
+- [FireEye](https://www.fireeye.com/)
+- [Kaspersky Cybermap](https://cybermap.kaspersky.com/)
+- [Fortinet Threatguard](http://threatmap.fortiguard.com/)
+- [Spamhaus Threatmap](https://www.spamhaus.com/threat-map/)
+- [Bitdefender Threatmap](https://threatmap.bitdefender.com/)
+- [Digital Attack Map](https://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=0&time=18763&view=map)
+- [Akamai Real Time Attack Visualizations](https://www.akamai.com/uk/en/resources/visualizing-akamai/)
+- [TALOS](https://talosinteligence.com)
+- [Checkpoint Threatmap](https://threatmap.checkpoint.com/)
+- [a10networks Threatmap](https://threats.a10networks.com/)
+
+There is a value in using a diversity of products and services, as it may improve security awareness and readiness. True or false?
+True
+
+## 043. Additional Sources for Research
+- **Vendor website**
+- **Vurneability feeds**
+- **Conferences**
+- **Academic journals**
+- **RFC** Request For Comments - details on protocols
+- **Local industry groups**
+- **Social media**
+- **TTP** Tactics, Techniques & Procedures
+
+You need to research a specific IPv4 protocol, as it was used in a new attack.
+Which document type should you use?
+- RFC
+
+## 044. Review / Quiz
+Which is an example of shadow IT in the context of attack vectors?
+- unauthorized impementation of tools or services, including cloud
+
+What tools might a script kiddie use to compromise a public facing IoT device?
+- vulnerability database
+- off the shelf hacking tool
+- google hacking
+- social media
+
+Which of the folowing could be motivations for hacking/attacking a system?
+- Ruin a company's reptation
+- Extract company secrets
+- A deeply felt cause
+- Financial gain
+- Curiosity
