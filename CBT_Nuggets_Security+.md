@@ -604,3 +604,91 @@ Company policy restricts workstations from running plain text web and remote acc
 Which ports should the vulnerability scanner look for?
 - TCP port 23
 - TCP port 80
+
+
+
+# Penetration Testing Techniques
+
+## 062. Introduction to Penetration Testing
+While vulnerability scan checks for threats, penetration testing checks whether exploit can compromise the system.
+
+## 063. Pen Testing Overview
+- **Privilage escalation**  taking advantage of one system to make a pivot and **lateral movement** to other systems
+- **Persistance** keeping access after you get in
+- **Cleanup** cover any traces of your activity
+Before pentesting is done:
+- **Rules of engagement** what is allowed, what is not allowed (setting up the rules)
+Gathering information:
+- **Passive reconnaissance** victim doesn't even know
+  * **footprinting** collecting as much info as you can
+  * **web crawlning** company's website
+  * **sniffing** eavesdropping the traffic (network packets)
+  * **drones**
+  * **war driving**
+- **Active reconnaisance**
+ * **port scanning** or **ping scanning**
+ Performing attack:
+ - using general ideas/techniques mentioned before: **privilage escalation**, **persitance**, **cleanup**
+ - simple example: **directory traversal**
+- **intrusive** vs **non-intrusive**
+Final step:
+- **Reporting** what was found, what attack were used
+
+ Even if you don't manage the network, pentesting IS allowed if you have a valid user account on the system. True or false?
+ - False
+
+ ## 064. OSSTMM
+ Open Source Security Testing Methodology Manual
+
+ What is the first step for pen testing?
+ - Permission
+
+ ## 065. Resources from NIST
+ National Institute of Standards and Technology.
+
+Special Publication 800-115:
+ [Technical Guide to Information Security Testing and Assessment](https://csrc.nist.gov/publications/detail/sp/800-115/final)
+
+ ## 066. Penetration Testing Execution Standard
+ PTES - [Penetration Testing Execution Standard](http://www.pentest-standard.org/index.php/Main_Page)
+
+ One of the first items in "pre-engagement" phase is identifying scope.
+
+## 067. Pen Testing Demo
+Explicit permission first!
+
+In Kali Linux:
+- `yersinia` or `yersinia -G`
+ * CDP flooding
+ * Sending DHCP discovery packets
+ * DTP (Dynamic Trunking Protocol) attack: enable trunking
+ * STP (Spanning Tree Protocol) attack
+
+## 068. OWASP
+Open Web Application Security Project
+[OWASP Top Ten](https://owasp.org/www-project-top-ten/)
+[Hacksplaining OWASP Top Ten](https://www.hacksplaining.com/owasp)
+
+## 069. Security Team Exercises
+- **Red Team** Offense
+- **Blue Team** Defense
+- **White Team** Neutral (Referees)
+- **Purple Team** Read and Blue Team combined.
+
+## 070. Pen Testing Review Quiz
+Which of the following are considered passive reconnaissance?
+- Network sniffing
+- Crawling a website
+- DNS lookup
+
+Which of the following could be used to discover WiFi networks?
+- War chalking
+- War driving
+- War flying
+- Social Engineering
+
+Which of the following should be done in penetration testing?
+- Only within the rules of engagement & scope
+
+What is the biggest difference between vulnerability scanning and pen testing?
+- Pen testing test to see if an exploit works

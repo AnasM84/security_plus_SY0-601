@@ -12,3 +12,4 @@ Network Attacks                         | 029-037 | **TODO**
 Threat Actors and Intelligence Sources  | 038-044 | **TODO**
 Vulnerabilities and Security Risks      | 045-052 | **TODO**
 Techniques Used in Security Assessments | 053-061 | **TODO**
+Penetration Testing Techniques          | 062-070 | **TODO**
