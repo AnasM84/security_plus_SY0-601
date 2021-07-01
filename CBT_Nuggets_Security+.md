@@ -692,3 +692,110 @@ Which of the following should be done in penetration testing?
 
 What is the biggest difference between vulnerability scanning and pen testing?
 - Pen testing test to see if an exploit works
+
+
+
+# Security Concepts for the Enterprise
+
+## 071. Introduction to Security Concepts for the Enterprise
+
+## 072. Configuration management
+- **baseline configuration**
+Current and available documentation:
+- **diagrams** - logical and physical
+- **Internet protocol (IP) schema** IPAM - IP Address management
+  * [Infoblox IPAM](https://www.infoblox.com/products/ipam-for-microsoft/)
+- **Standard naming convention**
+  * IT naming conventions best practices
+
+  [Microsoft Security Compliance Toolkit 1.0](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-compliance-toolkit-10)
+
+A user has requeste a change that deviates from the security configuration baseline. How should this be handled?
+- Change Management
+
+## 073. Data protection.
+Where data is?
+- **in transit/motion**
+- **at rest**
+- **in processing**
+Protection mechanisms:
+- **Encryption**
+- **DLP** Data Loss Prevention
+- **User training**
+- **Masking** - scrambling - for reports, for pen testing replicas
+- **Tokenization** - using placeholder (non-sensitive equivalents) values instead of real ones
+
+Objective | Method
+----------|-------
+Data integrity  | Hashing
+Availability    | Fault Tolerance
+Authentication  | 2FA
+Confidetiality  | Encryption
+Accounting      | Logging
+
+## 074. Hashing
+Validating whether there were changes over time in file.
+Checking for data integrity.
+
+- `certutil -hashfile <filename>` or `Get-FileHash -Path <filename>` on Windows
+  * more info `certutil -hashfile -?` or `help Get-FileHash`
+
+SHA-1 is more robust than MD5
+SHA-256 is ireversible
+Hashing can verify data integirty.
+
+## 075. Deception and Disruption
+- **honeypot** sanitized decoy to see who is attacking - [What is honeypot?](https://docs.rapid7.com/insightidr/honeypot/)
+- **honeyfile**
+- **honeynet**
+- **fake telemetry**
+- **DNS sinkhole** DNS knows reputation of sites, and if it's a malicious one, it redirects user to warning "stop" site
+
+Which system (including open ports) is used to attract attackers, but if the system is compromised, no sensitive data is disclosed?
+- honeypot
+
+## 076. SSL/TLS Inspection
+Firewall is man-in-the-middle that does **SSL/TLS inspection** (applicatiion layer inspection) - decrypts and analyzes data.
+For privacy reasons we want to tell firewall NOT TO decrypt finnancial or medical data -.
+
+What is the purpose of SSL/TLS inspection?
+- Allow our proxy/NGFW to perform application layer inspection
+
+## 077. Site Resiliency
+- **Hot site** up and running, ready (most expensive)
+- **Cold site** no network or systems, getting ready, up and running from SCRATCH (least expensive)
+- **Warm site** some of the infrastructure
+
+Considerations:
+- **Geographical**
+- **Data soveregnity**
+- **API**
+
+Which alternate site has some network infrastructure and a few systems, but is not fully functional and ready to go site?
+- Warm Site
+
+## 078. API Considerations
+**API** Application Program Interace
+
+An application programming interface (API) could allow an attacker to compromise confidentiality, data integrity, and/or availablity. True or false?
+- True
+
+## 079. Quiz and Review
+Which of the following are hashing algorithms?
+- MD5
+- SHA-1
+- SHA-256
+* **NOTE**: AES and RC4 are encrtyption algorithms!
+
+Which of the following can hashing verify?
+- Integrity of a packet
+- Intergity of a program
+- Integrity of update or hotfix
+
+Which of the following are reversible?
+- AES
+- 3DES
+* **NOTE**: encryption methods (using keys) are reversible, hashing is NOT reversible
+
+Which type of systems may include intentional vulnerabilities?
+- Honeypot

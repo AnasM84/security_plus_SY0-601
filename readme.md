@@ -13,3 +13,4 @@ Threat Actors and Intelligence Sources  | 038-044 | **TODO**
 Vulnerabilities and Security Risks      | 045-052 | **TODO**
 Techniques Used in Security Assessments | 053-061 | **TODO**
 Penetration Testing Techniques          | 062-070 | **TODO**
+Security Concepts for the Enterprise    | 071-079 | **TODO**
