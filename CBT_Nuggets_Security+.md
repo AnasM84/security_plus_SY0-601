@@ -799,3 +799,66 @@ Which of the following are reversible?
 
 Which type of systems may include intentional vulnerabilities?
 - Honeypot
+
+
+
+# Cloud Computing and Virtualization
+
+## 080. introduction to Cloud Computing and Virtualization
+
+## 081. Virtualization Overview
+- **Hypervisor** 
+  * bare metal hypervisor (type 1 hypervisor) - run directly on hardware
+  * hosted hypervisor (type 2 hypervisor) - run inside operating system
+- **Virtual Machines** VMs - easy to run, but also easy to forget **VM sprawl**
+- **VM escape** - breaking out of VM and interacting with host operating system
+- **Cloud services** for VMs
+  * **resource services**
+
+## 082. Cloud Models
+- **IaaS** Infrastructure as a Service - customer manages OS
+- **PaaS** Platform as a Service - for example for app development
+- **SaaS** Software as a Service - cloud applications, for example Office 365
+- **XaaS** Anything as a Service
+- **FaaS** Function as a Service - serverless architecture
+
+Location/ownership:
+- **On-prem**
+- **Off-prem**
+- **Public**
+- **Private**
+- **Hybrid**
+- **Communuty**
+
+## 083. MSPs and MSSPs
+- **MSP** Managed Service Provider
+- **MSSP** Managed Security Service Provider
+
+## 084. Desktop Virtualization
+- **Edge Computing**
+- **Fog Computing**
+
+- **VDI** Virtual Desktop Infrastructure
+- **VDE** Virtual Desktop Environment
+
+- **Thin Client** used to access VDI
+
+## 085. Deploy a VM
+ESXi Demo.
+
+## 086. Modyfiing a VM
+ESXi Demo.
+
+## 087. Containers and Microservices
+
+## 088. Infrastructure as Code and SDN
+- **SDN** Software Defined Networking - for example: vSphere for Configuring (networking) multiple ESXi hosts
+- **SDV** Software Defined Visibility
+
+## 089. Quiz and Review
+The customer is responsible for OS patches and virtualized networking
+Which cloud model is being used?
+- IaaS
+
+If a VM is performin slowly, what is able to provide it more CPU or memory?
+- Hypervisors
