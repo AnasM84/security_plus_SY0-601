@@ -860,5 +860,63 @@ The customer is responsible for OS patches and virtualized networking
 Which cloud model is being used?
 - IaaS
 
-If a VM is performin slowly, what is able to provide it more CPU or memory?
+If a VM is performing slowly, what is able to provide it more CPU or memory?
 - Hypervisors
+
+
+
+# App Development, Deployment, and Automation
+
+## 090. Intro to App Development, Deployment, and Automation
+
+## 091. Development Environments
+- **Software diversity**
+- **Compiler**
+- **Development Methodologies**
+- **CI/CD** Continuous Integration, (Delivery), and Deployment
+- **Testing**
+  * White Box
+  * Black Box
+  * Elasticity & Sclability
+  * **QA** Quality Assurance
+  * **Staging** - near exact replica to perform tests on
+- **Provisioning and deprovisioning**
+
+## 092. Separation of Duties
+Change control, change approval, rollback procedure.
+
+Which of the following is an example of when two different people with unique responisibilities work toghther on a project?
+- Separation of duties
+
+## 093. Secure Coding Techniques
+- **Input Validation** protects from SQL injection
+- **Normalization** checking for invalid characters
+- **Stored procedures** using premade SQL statements, not custom ones
+- **Obfuscation/camouflage**
+- **Code reuse/dead code**
+- **Memory manegement** to prevent resource exhaustion
+- **Error handling**
+- **SDKs** Software Development Kits (and Thired-party Libraries)
+- **Code Signing**
+
+## 094. OWASP BWA
+Open Web Application Security Project Broken Wen Appliication
+
+Demo of OWASP BWA
+
+## 095. Automation and Scripting
+Benefits of automation or scripting:
+- **Automated courses of action**
+- **Continious automation**
+- **Continous validation**
+
+Which feature of a software repository assists developers in making sure they are on the correct fork or update of code?
+- Version control
+
+## 096. Improving Integrity
+- **TPM** Trusted Platform Module
+
+Which is name of the chip that can store keys and assist in confirming the integrity of a system?
+- TPM
+
+## 097. Review Quiz
