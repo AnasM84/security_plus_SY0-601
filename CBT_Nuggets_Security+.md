@@ -920,3 +920,73 @@ Which is name of the chip that can store keys and assist in confirming the integ
 - TPM
 
 ## 097. Review Quiz
+
+
+
+# Authentication and Authorization Design Concepts
+
+## 098. Intro to Authentication and Authorization Concepts
+
+# 099. AAA Overview
+- **AAA** Authentication, Authorization and Acounting
+  * Authentication - verify the user identity - identify who the user is, and verify it
+  * Authorization - What the user is allowed to do
+  * Accounting - Tracking what the user did
+
+Which method/protoco; is often used between the network device providing access and the back end authentication server?
+- RADIUS
+
+# 100. Authentication Methods
+- **OTP** One-Time Password
+  * **Token Generator** generated tokes are OTPs
+  * **TOTP** Time-based One-Time Password
+  * **HOTP** HMAC-based One-Time Password (Hash Message Authentication Code)
+  * **SMS** Short Message System - another way to deliver OTP
+- **Static codes**
+- **Push notifications**
+- **Smart Card authentication**
+- **SSO** Single Sign On
+- **Federation** Domain trust across organizations
+
+When Domain A trusts the authentications performed in Domain B, what is this an example of?
+- Federations
+
+# 101. Biometrics
+- **Fingerprint**
+- Eye scan
+  * **Retina**
+  * **Iris**
+- **Facial**
+- **Voice**
+- **Gait analysis** the way one moves
+- **Vien** in the hand
+How effective the biometrics is (how accurate it is) is measured by **efficacy rate**.
+- **false acceptance**
+- **false rejection**
+When these two are equal it's called **crossover error rate**
+
+# 102. Multifactor Authentication (MFA)
+3 Factors/Categories:
+- **Something user knows** - for example: Password
+- **Something user has** - for example: Smart Card
+- **Something user is** - biometrics
+
+When it comes to authenticating:
+- **2FA** Two-factor Authentication - using two dfferent categories
+Additional category:
+- **Someone you know** - vouches for you
+
+# 103. Quiz Review
+Which centrailzed authentication option uses RADIUS and can perform network-based authentication of the device, at the edge of the network?
+- 802.1X
+
+Which options below are in the same factors/caregories?
+
+ Knows   |    Has   |   Is
+---------|----------|--------------
+pin      | smart card | fingerprint
+password | OTP generator |
+birthday |            |
+
+What is FAR (False Acceptance Rate)?
+- How often bio authentication system incorrectly indentifies a user
